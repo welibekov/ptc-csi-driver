@@ -8,7 +8,7 @@ import (
 	"github.com/welibekov/ptc-csi-driver/pkg/ptc/client/operations"
 )
 
-type DescribeVolumeOKBody struct {
+type Volume struct {
 	// The instance ID of the VM to which the volume is attached, if any
 	AttachedTo string `json:"attached_to,omitempty"`
 
